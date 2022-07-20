@@ -1,0 +1,401 @@
+/* Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Common utilities */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* overflow-x: hidden; */
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 30px;
+}
+
+/* Top section started  */
+.first-first {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 60px 60px 0px 60px;
+  margin-bottom: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.Text,
+.banner {
+  width: 50%;
+}
+.banner {
+  display: flex;
+}
+.player {
+}
+
+.total-top {
+  display: flex;
+
+  position: center;
+  padding: 90px;
+}
+
+.Top-section {
+  background-color: black;
+  display: flex;
+  /* justify-content: center; */
+  justify-items: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.top-header {
+  margin: 100px;
+}
+
+.top-banner {
+  margin: 100px;
+}
+
+.top-banner,
+img {
+  width: 100%;
+}
+
+.text-tittle {
+  color: #fff;
+  width: 420px;
+  font-size: 60px;
+  line-height: 78px;
+  margin-bottom: 20px;
+}
+
+.paragraph-text {
+  font-size: 15px;
+  color: #fff;
+}
+
+button {
+  background-color: #dd0000;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 16px 25px 16px 25px;
+}
+
+/* Middle section or layout section styles  */
+.blog-section {
+  display: flex;
+}
+/* For box-1  */
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 15px;
+  padding: 15px 20px;
+}
+.form a {
+  width: 100%;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
+.white-button {
+  font-size: 25px;
+  color: black;
+  background-color: aliceblue;
+}
+
+.Red-button {
+  font-size: 25px;
+  background-color: rgb(206, 47, 47);
+}
+
+.match {
+  text-decoration: none;
+}
+
+/* Courses styles */
+
+.icon-one {
+  color: black;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: rgb(226, 234, 240);
+  padding: 5px 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: 1px solid #161616;
+}
+
+.icon {
+  text-decoration: none;
+}
+
+#box-last {
+  flex-grow: 1;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 31px;
+  row-gap: 28px;
+  margin: 35px;
+  margin-top: 0px;
+}
+
+.course {
+  border: 2px solid #0000002b;
+  border-radius: 15px;
+}
+
+.course-info {
+  margin: 20px;
+  margin-top: 0px;
+}
+.course-info p {
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.course-info a {
+  margin-right: 20px;
+  color: #161616;
+}
+/* style for Match Layout  */
+.container-two {
+  display: flex;
+  height: 100%;
+  align-items: stretch;
+  margin: 75px;
+}
+
+#box-right {
+  flex-grow: 1;
+}
+
+.matches {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 18px;
+  grid-row-gap: 16px;
+  padding: 25px;
+  padding-top: 0px;
+}
+
+.match-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px black;
+  justify-content: space-evenly;
+}
+
+.Vs {
+  margin: 20px;
+}
+
+.flag-tittle-for-match {
+  text-align: center;
+}
+
+.single-match {
+  border: 2px solid rgb(65 60 60 / 11%);
+  border-radius: 10px;
+  padding: 25px;
+}
+.single-match h2 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+.last-button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 100px;
+  margin-top: 0px;
+}
+
+/* Footer styles  */
+footer {
+  background-color: black;
+  align-items: center;
+  padding: 130px 140px;
+  text-align: center;
+}
+.footer-title {
+  color: white;
+  font-size: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-menu {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: small;
+  margin: 1rem;
+}
+.footer-social-icon {
+}
+
+.footer-social-icon a {
+    color: #000;
+    padding: 10px;
+    background: #fff;
+    border-radius: 34px;
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    line-height: 0px;
+}
+
+/* Responsive css started  */
+
+/* Tablet Device */
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+  }
+  .text-tittle {
+    width: 350px;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 20px;
+  }
+  .paragraph-text {
+    font-size: 12px;
+    color: #fff;
+  }
+  .blog-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    flex-direction: row;
+    background: transparent;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .form a {
+    margin: 0 7px;
+  }
+  .form input {
+    margin: 0;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    width: 240px;
+    display: block;
+    font-size: 20px;
+  }
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 31px;
+    row-gap: 28px;
+  }
+  .device-hide {
+    display: none;
+  }
+}
+
+/* Mobile device */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .first-first {
+    flex-direction: column;
+    padding: 40px 20px 0px 20px;
+  }
+  .Text {
+    margin-bottom: 30px;
+  }
+  .Text,
+  .banner {
+    width: 100%;
+    text-align: center;
+  }
+  .text-tittle {
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .paragraph-text {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .form a {
+    margin: 12px 0px;
+  }
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0px;
+    row-gap: 28px;
+    margin: 0;
+  }
+  footer {
+    padding: 100px 60px;
+  }
+  footer nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .mobile-device-hide {
+    display: none;
+  }
+  .mb {
+    margin-bottom: 80px;
+  }
+}
